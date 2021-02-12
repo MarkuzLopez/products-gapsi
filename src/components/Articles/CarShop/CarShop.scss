@@ -1,0 +1,26 @@
+.CarShop {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 215px;
+    .circulo { 
+        display: flex;
+        justify-content: flex-end;
+    }
+    .number-car {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: chartreuse;
+    }
+    .img-car { 
+        max-width: 150px;
+    }
+    .border-car {
+        margin: 10px 0px;
+        border: 1px solid blue;
+    }
+}
